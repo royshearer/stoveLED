@@ -5,13 +5,13 @@ A reactive lighting installation for the close next to The Stove in Dumfries.
 The controller is based on an Arduino Nano microcontroller and can easily be
 reprogrammed using a Mini B USB cable and laptop running Arduino IDE (or
 equivalent) software – download this from http://arduino.cc m and install.
-• The code requires the ‘Adafruit_NeoPixel’ library to be installed. You can
-serach for and install that library from in the menu: Sketch/Include
+* The code requires the ‘Adafruit_NeoPixel’ library to be installed. You can
+search for and install that library from in the menu: Sketch/Include
 Library/Manage Libraries...
-• The current code can be downloaded from
+* The current code can be downloaded from
 https://github.com/royshearer/stoveLED. Download this and double click
 any file – all should open together as seperate tabs in the Arduino IDE.
-• Further instrucions are at the top of the stoveLED_mk# tab.
+* Further instrucions are at the top of the stoveLED_mk# tab.
 
 ## What it currently does
 The controller can operate in two modes: manual and automatic. These are selected by pushing the mode button inside the control box. I have left the system in automatic mode.
