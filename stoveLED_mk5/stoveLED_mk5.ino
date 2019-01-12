@@ -40,7 +40,7 @@ void loop() {
 
 void ManualMode() {
   CheckSensor(); // check to see if someone is passing
-  setButtonLED(); // set LEDs on the control box
+  setLEDs(); // set LEDs on the control box
 
   //read and map potentiometers (knobs)
   readPotsManual();
@@ -61,7 +61,7 @@ void SensorMode() {
   else { // otherwise if it is night time..
     CheckSensor(); // check to see if someone is passing - comment this out if you don't want the count to change during the evening time.
     // ********************** CALL AN ANIMATION ROUTINE HERE
-    routine3();
+    routine1();
     // **********************
   }
 }

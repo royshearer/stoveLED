@@ -20,3 +20,6 @@ Beneath the shelf in the close is an ultrasonic proximity sensor pointing downwa
 This mode is active when the mode switch inside the control box is unlit. During the day (0800 – 1900 GMT) the LED strips are off, but the system continues to count people passing under the sensor. During the night (1900 – 0800 GMT) the system chooses a lighting scheme based on the current number of people counted over that day. As it continues to add to this count throughout the evening, the colour scheme should change every time someone passes under the sensor.
 ### Manual mode:
 This mode is active when the mode switch inside the control box is lit. In this mode the user can select a colour for the LED strips to display statically at all times. The colour (in terms of red, green and blue) and overall brightness are set using the knobs in the control box. The system will stay in manual mode until it is turned off by the user pushing the mode button.
+
+## New in Mk5
+Fixed bug with the mode button light

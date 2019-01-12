@@ -19,4 +19,7 @@ void setButtonLED() {
   if (readButtonPin()) {
     digitalWrite(LED[4], HIGH);
   }
+  else {
+    digitalWrite(LED[4], LOW);
+  }
 }
